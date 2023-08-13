@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	box-sizing: border-box;
+	font-weight: 600;
+}
+
+html ::-webkit-scrollbar-track {
+	background: transparent;
+}
+html ::-webkit-scrollbar-thumb {
+	background: #b8863b;
+	border-radius: 10px;
+}
+html ::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* navbarstart */
+
+#navbar {
+	background-color: #b8863b;
+}
+
+.navbar-nav {
+	margin-left: 20px;
+}
+.nav-item .nav-link {
+	color: #000;
+	margin-left: 10px;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+	color: white;
+}
+
+/* navbarend */
+
+/* home section start  */
+#home {
+	width: 100%;
+	height: 90vh;
+	background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3)
+		),
+		url(./asset/WhatsApp\ Image\ 2023-08-13\ at\ 12.28.13.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 88%;
+}
+
+#home .content {
+	padding-top: 210px;
+	margin-left: 56px;
+}
+
+#home .content h3 {
+	font-size: 35px;
+	color: white;
+	font-weight: 700;
+}
+
+#home .content p {
+	margin-top: 10px;
+	color: white;
+}
+
+#btn {
+	width: 150px;
+	height: 36px;
+	margin-top: 20px;
+	background: #b8863b;
+	border-radius: 17px;
+	font-weight: bold;
+	border: none;
+	transition: 0.5s;
+}
+
+#btn:hover {
+	background-color: #000;
+	color: #b8863b;
+}
+/* home section end  */
+
+/* about section start */
+
+#about {
+	width: 100%;
+	height: 100vh;
+}
+
+#about .container {
+	padding-top: 70px;
+}
+.heading {
+	text-align: center;
+	margin-bottom: 50px;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.heading span {
+	color: #b8863b;
+}
+
+#about .card {
+	border-radius: 10px;
+}
+
+#about .card img {
+	border-radius: 7px;
+}
+#about-btn {
+	width: 200px;
+	height: 36px;
+	background: transparent;
+	border: 2px solid #b8863b;
+	color: black;
+	border-radius: 20px;
+	font-weight: 900;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+#about-btn:hover {
+	background-color: #b8863b;
+	color: white;
+}
+@media screen and (max-width: 982px) {
+	#about p {
+		font-size: 8px;
+	}
+}
+
+@media screen and (max-width: 766px) {
+	#about p {
+		font-size: 15px;
+	}
+	#about {
+		height: 120vh;
+	}
+}
+/* about section start */
+
+/* card start */
+
+#top-card {
+	width: 100%;
+	height: 60vh;
+	background: #b8863b;
+}
+.heading {
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.heading2 span {
+	color: #b8863b;
+}
+#top-cards .container {
+	margin-top: 30px;
+}
+
+#top-cards .card {
+	border-radius: 10px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+#top-cards .card img {
+	border-radius: 4px;
+}
+#top-cards .card:hover {
+	transform: translateY(-10px);
+}
+
+/* card end */
+
+/* galeri start */
+
+#gallery {
+	width: 100%;
+}
+.heading3 {
+	font-size: 180%;
+	text-align: center;
+	color: #b8863b;
+	margin-top: 68px;
+	font-weight: 700;
+}
+
+#gallery .card {
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#gallery .card img {
+	border-radius: 10px;
+}
+
+/* \galeri end */
+
+/* kontak start */
+#kontak {
+	width: 100%;
+	height: 100vh;
+	padding-top: 77px;
+}
+#kontak .container {
+	width: 100%;
+	height: 80vh;
+	background: linear-gradient(90deg, white 80%, #b8863b 20%);
+}
+
+.heading4 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 60px;
+}
+
+#kontak p {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#kontak input {
+	width: 360px;
+	border: none;
+	border-bottom: 1px solid #b8863b;
+}
+
+#kontak-btn {
+	width: 155px;
+	height: 36px;
+	border: none;
+	background: #b8863b;
+	color: white;
+	font-weight: bold;
+	margin-top: 25px;
+	cursor: pointer;
+	border-radius: 53px;
+}
+
+#col {
+	width: 40%;
+	height: 56vh;
+	background: black;
+	margin-top: 70px;
+	border-radius: 4px;
+}
+#kontak h1 {
+	color: white;
+	font-size: 31px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+#kontak #col p {
+	font-size: 15px;
+	color: white;
+	margin-left: 13px;
+	margin-top: 30px;
+}
+@media screen and (max-width: 766px) {
+	#kontak .container {
+		background: white;
+	}
+	#col {
+		width: 100%;
+		background: #b8863b;
+	}
+	#kontak {
+		height: 150vh;
+	}
+}
+@media screen and (max-width: 400px) {
+	#kontak input {
+		width: 250px;
+	}
+}
+/* kontak end */
+
+/* footer start */
+
+#footer p {
+	text-align: center;
+	font-size: ;
+}
+/* footer end */
